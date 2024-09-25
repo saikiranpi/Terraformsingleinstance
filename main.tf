@@ -93,8 +93,8 @@ resource "aws_security_group" "allow_all" {
 
 data "aws_ami" "my_ami" {
      most_recent      = true
-     #name_regex       = "^mavrick"
-     owners           = ["721834156908"]
+     #name_regex       = "^sai"
+     owners           = ["232323232323232323"]
 }
 
 
@@ -110,7 +110,7 @@ data "aws_ami" "my_ami" {
 #     tags = {
 #         Name = "Server-1"
 #         Env = "Prod"
-#         Owner = "Sree"
+#         Owner = "sai"
 # 	CostCenter = "ABCD"
 #     }
 # }
