@@ -113,7 +113,7 @@ data "aws_ami" "my_ami" {
 #         Owner = "sai"
 # 	CostCenter = "ABCD"
 #     }
-#      user_data = <<- EOF
+#      user_data = <<-EOF
 #      #!/bin/bash
 #      	sudo apt-get update
 #      	sudo apt-get install -y nginx
